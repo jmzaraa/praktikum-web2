@@ -6,6 +6,7 @@ $pdf->SetFont('Arial', 'B', 16);
 $pdf->Cell(0, 10, 'LAPORAN SEMUA DATA MAHASISWA', 0, 10, 'C');
 $pdf->Cell(10, 7, '', 0, 1, 'C');
 $pdf->SetFont('Arial', 'B', 12);
+
 $pdf->Cell(10, 6, 'No.', 1, 0);
 $pdf->Cell(20, 6, 'NIM', 1, 0);
 $pdf->Cell(50, 6, 'Nama Lengkap', 1, 0);
